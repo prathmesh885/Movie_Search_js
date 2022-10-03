@@ -1,0 +1,61 @@
+body {
+  background-color: #c5e3e8eb;
+}
+
+.header,
+.imgInfo,
+.rating {
+  background-color: #c7d6d0eb;
+  color: #181218eb;
+}
+
+.fig {
+  background-color: #a5cd4eeb;
+  overflow: auto;
+}
+
+.movieName {
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+
+.search {
+  background-color: #f6f9f6eb;
+  outline: none;
+  border-radius: 45px;
+}
+
+.imgInfo {
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.overview {
+  /* overflow-y: none; */
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .3s ease-in-out;
+  /* overflow-y: auto; */
+  transform: translateY(101%);
+  height: 75%;
+}
+
+.imgInfo:hover .overview {
+  transform: translateY(0%);
+}
+
+.cardheight {
+  /* min-height: 480px; */
+  overflow-y: hidden;
+  /* background-color:#701068eb ; */
+  object-fit: cover;
+}
